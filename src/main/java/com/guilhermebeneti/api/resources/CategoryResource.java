@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value="/categories")
-public class CategoriesResource {
+public class CategoryResource {
 	
 	@RequestMapping(method=RequestMethod.GET)
 	public String list() {
